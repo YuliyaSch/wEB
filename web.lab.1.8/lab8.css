@@ -1,0 +1,30 @@
+    html
+    {
+        font-family: Helvetica;
+    }
+
+    body
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    input, button
+    {
+        border: 1px solid gray;
+    }
+        
+    #Out
+    {
+        font-size: 13px;
+    }
+
+    #Save:active
+    {
+        outline: 1px solid blue;
+    }
+
+    table
+    {
+        border-spacing:0px;
+    }
