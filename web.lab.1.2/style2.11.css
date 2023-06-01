@@ -1,0 +1,9 @@
+                .one{
+	        background-color:rgb(138, 255, 255);
+	        height:265px;
+	        width:100%;
+                }
+                .main{
+	        border: 1.5px solid forestgreen;
+	        height:265px;
+                }

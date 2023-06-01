@@ -1,0 +1,49 @@
+        {
+                margin: 0;
+                padding: 0;
+        }
+
+        .main{
+                width: 100%;
+                display: flex;
+                border: 1px solid green;
+                background:aqua;
+        }
+
+        .m1{
+                width: 25%;
+        }
+
+        .p{
+                height: 100px;
+                background-color: bisque;
+        }
+
+        .b{
+                background-color: aqua;
+        }
+
+        ul{
+                padding: 20px 40px;
+        }
+
+        .m2{
+                width: 75%;
+                background-color: grey;
+        }
+
+        img{
+                float: right;
+        }
+
+        .text1{
+                clear: right;
+	margin:0;
+        }
+
+        @media screen and (max-width:500px){
+	.text1{
+                position:relative;
+	        bottom:2em;
+	}
+        }

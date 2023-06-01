@@ -1,0 +1,31 @@
+                .main{
+	        border: 1px solid forestgreen;
+	        background-color:rgb(138, 255, 255);
+	        display:flex;
+                }
+
+                .m1{
+	        width:20%;
+	        height:100px;
+	        background-color:#ffe5c0;
+	        margin-bottom:0px;
+                }
+
+                .m2{
+	        background-color:rgb(139, 139, 139);
+	        width:80%;
+                }
+
+                .p{
+	        background-color:#ffe5c0;
+	        min-width:120px;
+	        width:20%;
+	        height:100px;
+	        float:left;
+                }
+
+                @media screen and (max-width: 1000px) {
+	        .main{
+	                display:block;
+	        }
+                }
