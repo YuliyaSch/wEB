@@ -1,0 +1,61 @@
+     *{
+            margin: 0;
+        }
+        html, body {
+            height: 100%;
+            font-family: sans-serif;
+        }
+        p::selection {
+            color: green;
+            background: #e1e5eb;
+        }
+        .main {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            min-height: calc(100% - 50px);
+            margin-bottom: -25px;
+            overflow: auto;
+            text-align: center;
+        }
+        .main:after {
+            content: "";
+            display: block;
+            height: 25px; 
+        }
+        .wall{
+            width: 100%;
+            display: flex;
+        }
+        .post{
+            text-align: center;
+            font-size: 14px;
+        }
+        .header{
+            width: 300px;
+            font-size: 25px;
+            line-height: 30px;
+            color: white;
+            background: red;
+            border: 2px solid black;
+            box-sizing: border-box;
+            float: left;
+            height: 40px;
+        }
+        .header:hover{
+            cursor: pointer;
+        }
+        .container{
+            position: relative;
+            float: left;
+            display: flex;
+            min-width: 80px;
+            height: 400px;
+            width: 450px;
+        }
+        .container img{
+            width: 90%;
+            max-width: 450px;
+            height: 300px;
+            margin: 25px;
+        }
