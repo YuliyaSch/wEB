@@ -1,0 +1,13 @@
+  body{
+            margin: 0;
+            padding: 0px;
+        }
+        .shape{
+            border: 1px solid black;
+            position: absolute;
+            overflow: hidden;
+        }
+        .main{
+            margin-top: 6px;
+            margin-left: 4px;
+        }
